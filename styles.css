@@ -1,6 +1,7 @@
 h1 {
-    color: maroon;
+    color: white;
 }
-#second {
-    color: mediumseagreen;
-}
+body {
+    background-color: lightblue;
+    color: white;
+  }

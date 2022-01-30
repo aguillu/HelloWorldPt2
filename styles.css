@@ -32,3 +32,22 @@ button.minutedisplay {
 button.photobutton{
     color: lightblue;
 }
+
+div.card1{
+    color: white;
+    background-color: lightblue;
+}
+
+div.card2{
+    color: white;
+    background-color: lightblue;
+}
+
+div.card3{
+    color: white;
+    background-color: lightblue;
+}
+
+a[class~="btnwhite"] {
+    color: white !important;
+}

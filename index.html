@@ -17,10 +17,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                <a class="nav-link active" aria-current="page" href="research.html">Research</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="digchalk.html">Digital Chalkboard</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,14 +37,57 @@
           </div>
         </div>
       </nav>
-    <h1>Hello World!</h1>
+    <h1>Alyssa Guillu</h1>
     <h3>
-        Created by Alyssa Guillu 
+        Undergraduate Researcher at UChicago, Aspiring PhD Student in Psychology 
     </h3>
-    <p id="Welcome"> Welcome to Alyssa's First Site</p>
-    <p id="second"> This is my second paragraph</p>
-    <p id="third"> This is my third paragraph</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
+    <section
+      class="bg-lightblue text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <p class="lead my-4">
+              Alyssa is a fourth year undergraduate student double majoring in psychology and linguistics at the University of Chicago. Currently, she conducts research that examines the form, function, and sequence organization of gesture in speech. She is particularly interested in investigating the role gesture plays in the spontaneous speech of children with brain injuries, and examining the broader relationship between language and cognition.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              CV
+            </button>
+          </div>
+          <img src="Guillu.Alyssa.jpg" alt="Photo of Alyssa" style="width:400px;height:400px;" id= "photo"
+          />
+        </div>
+      </div>
+    </section>
+    <div id="minute">
+      
+    </div>
+    <button onclick="minutefunction()" class="minutedisplay"">
+      Wanna know the time? Click me!
+    </button>
+    <button onclick="imagebyebye()" class="photobutton">
+      Click to make something cool happen
+    </button>
 </body>
 </html>
+<script>
+  function minutefunction() {
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(); 
+    var div = document.getElementById("minute");
+    div.innerHTML = time;
+
+  }
+  
+  function imagebyebye() {
+    var photo = document.getElementById("photo");
+    photo.style.visibility = "hidden";
+  }
+  
+</script>

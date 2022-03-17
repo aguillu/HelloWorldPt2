@@ -91,5 +91,26 @@
           </div>
         </div>
       </section>
+
+  <div id="nav-placeholder"></div>
+  <div class="container mt-3">
+    <div id="title">Wikipedia API</div>
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" id="searchTerm" class="form-control" placeholder="Enter your search term here">
+      </div>
+      </div>
+    </form>
+
+    <button type="submit" class="btn btn-primary my-3" onclick="wikiAPI()">Search</button>
+    <div class="container" id="wiki"></div>
+  </div>
+
+  <footer id="footerPlaceholder" class="d-none d-md-block footer container-fluid mt-auto py-3 bg-light"></footer>
+
+  <script src="wikiAPI.js"></script>
+  <script src="nav.js"></script>
+  <script src="footer.js"></script>
 </body>
 </html>

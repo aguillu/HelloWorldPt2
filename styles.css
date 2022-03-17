@@ -53,3 +53,32 @@ a[class~="btnwhite"] {
 }
 
 
+span#drop {
+
+    float: left;
+  
+    line-height: 85%;
+  
+    width: .7em;
+  
+    font-size: 400%;
+  
+    font-family: georgia;
+  
+  }
+
+  a.carousel-control-prev {
+      color: black;
+  }
+
+  a.carousel-control-next {
+    color: black;
+}
+span.carousel-control-prev-icon{
+    color: black;
+}
+span.carousel-control-next-icon{
+    color: black;
+}
+
+#map { height: 180px; }

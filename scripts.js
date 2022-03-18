@@ -53,6 +53,17 @@ map.on('click', onMapClick)
 
 }
 
-const months = ['March', 'Jan', 'Feb', 'Dec'];
-months.sort();
-console.log(months);
+
+
+function arrayexample() {
+    var name1 = window.prompt("enter an animal: ");
+    var name2 = window.prompt("enter another animal: ");
+    var name3 = window.prompt("enter a third animal: ");
+    var names = [name1, name2, name3]
+    console.log(names);
+    names.sort(); 
+    console.log(names);
+    var alert = document.getElementById("animals"); 
+    alert.innerText = names;   
+    }
+
